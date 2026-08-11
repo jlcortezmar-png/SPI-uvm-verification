@@ -117,6 +117,3 @@ You should see console messages like:
 
 ---
 
-## Notes
-
-This project was built in a guided, step-by-step manner as part of a SystemVerilog and UVM learning process — prioritizing understanding the *why* behind each design decision over copying code.
