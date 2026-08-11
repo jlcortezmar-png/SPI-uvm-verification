@@ -20,11 +20,13 @@ The UVM testbench:
 
 ## Repository structure
 
+```
 spi-uvm-verification/
 ├── spi_master.sv    # Master module + its interface
 ├── spi_slave.sv     # Slave module + its interface
 ├── tb_top.sv        # Full UVM testbench (all classes + top module)
 └── README.md
+```
 
 ---
 
@@ -71,8 +73,10 @@ The number of transactions is configurable from `spi_test` by setting `sequ.num_
 
 Expected console output looks like:
 
+```
 UVM_INFO ... [SCO] DRV (din) : 154   MON (dout) : 154
 UVM_INFO ... [SCO] DATA MATCHED
+```
 
 ---
 
@@ -86,3 +90,6 @@ UVM_INFO ... [SCO] DATA MATCHED
 
 ---
 
+## Notes
+
+This testbench was built in a guided, step-by-step manner as part of a UVM learning process — prioritizing understanding the *why* behind each UVM mechanism (phases, factory, config_db, analysis ports) over copying code.
