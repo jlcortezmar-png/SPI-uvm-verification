@@ -86,6 +86,3 @@ UVM_INFO ... [SCO] DATA MATCHED
 
 ---
 
-## Notes
-
-This testbench was built in a guided, step-by-step manner as part of a UVM learning process — prioritizing understanding the *why* behind each UVM mechanism (phases, factory, config_db, analysis ports) over copying code.
